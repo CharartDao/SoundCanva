@@ -36,8 +36,9 @@ class MicrophoneInput extends Component <PageProps, State>{
 
   stopMicrophone() {
     this.state.audioElement!.getTracks().forEach(track => {track.stop(); console.log(track);});
-    //this.setState({ audioElement: null });
+    this.setState({ audioElement: null });
     this.setState({ microPhone: false });         
+    this.setState({ audioElement: null });       
   }
 
   toggleMicrophone() {
@@ -66,7 +67,7 @@ class MicrophoneInput extends Component <PageProps, State>{
             }
           </Grid>
         </div>
-        {this.state.audioElement ? <AudioAnalyser audio={this.state.audioElement} /> : ''}
+        {this.state.audioElement ? <AudioAnalyser audio={this.state.audioElement} /> : 'todo the final result should be here'}
       </div>
     );
   }
