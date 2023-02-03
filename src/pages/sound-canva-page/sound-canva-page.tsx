@@ -10,7 +10,7 @@ const SoundCanvaPage: React.FC = () => {
 
   return (
     <div className="sound-canva">
-        <h1>Sound Wave</h1>
+        <h1>Sound Canva</h1>
         <p className="subtitle">Present the special person the special sound to abstract art representation of love. </p>
         <MicrophoneInput />
     </div>

@@ -1,6 +1,8 @@
 # SoundCanva
 This project is a playground for DevArt of transforming the sound into canva.
 
+![Demo Image](https://github.com/CharartDao/SoundCanva/tree/dev/public/https://github.com/CharartDao/SoundCanva/blob/dev/public/SoundCanva%20Effect%20Demo.jpeg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
