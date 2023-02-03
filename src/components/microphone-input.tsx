@@ -67,7 +67,7 @@ class MicrophoneInput extends Component <PageProps, State>{
             }
           </Grid>
         </div>
-        {this.state.audioElement ? <AudioAnalyser audio={this.state.audioElement} /> : 'todo the final result should be here'}
+        {this.state.audioElement ? <AudioAnalyser audio={this.state.audioElement} /> : ''}
       </div>
     );
   }

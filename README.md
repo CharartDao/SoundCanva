@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# SoundCanva
+This project is a playground for DevArt of transforming the sound into canva.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
