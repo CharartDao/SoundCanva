@@ -36,8 +36,9 @@ class MicrophoneInput extends Component <PageProps, State>{
 
   stopMicrophone() {
     this.state.audioElement!.getTracks().forEach(track => {track.stop(); console.log(track);});
-    //this.setState({ audioElement: null });
+    this.setState({ audioElement: null });
     this.setState({ microPhone: false });         
+    this.setState({ audioElement: null });       
   }
 
   toggleMicrophone() {

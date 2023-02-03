@@ -31,7 +31,7 @@ export class Glob implements IAnimation {
         const centerY = height / 2;
         this._options = {
             count: 100,
-            diameter: height / 3,
+            diameter: height / 5,
             frequencyBand: "mids",
             rounded: true,
             ...this._options

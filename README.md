@@ -1,4 +1,7 @@
-# Getting Started with Sound Canva
+# SoundCanva
+This project is a playground for DevArt of transforming the sound into canva.
+
+![Demo Image](https://github.com/CharartDao/SoundCanva/blob/dev/public/SoundCanva%20Effect%20Demo.jpeg)
 
 This project was created using React typescript.
 
